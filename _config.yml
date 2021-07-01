@@ -1,7 +1,32 @@
-collections:
 
-defaults:
+last-updated: July 1, 2021
+title: Punn Kam
+author: Punn Kamolyabutr
+email: punn.kamolyabutr@gmail.com
+
+show_excerpts: False # set to true to show excerpts on the homepage
+
+twitter_user: punn_kam
+github_user: punnkam
+facebook_user: punnkam
+linkedin_user: punn-kam
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+
+google_analytics: G-BWS5BYME9C
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+ - jekyll-feed
+ - jekyll-seo-tag
