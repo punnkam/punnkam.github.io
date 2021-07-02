@@ -1,3 +1,4 @@
 # My Personal Website
 
-Bio, Blog
+Bio, Blog 
+Mainly Technology, Math, and Finance.
