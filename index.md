@@ -1,6 +1,7 @@
---- 
-layout: default
-title: Home
---- 
+---
 
-## Hey, I'm Punn!
+layout: home
+
+---
+
+## HELLO 
