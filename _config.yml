@@ -6,10 +6,9 @@ email: punn.kamolyabutr@gmail.com
 
 show_excerpts: False # set to true to show excerpts on the homepage
 
-twitter_user: punn_kam
-github_user: punnkam
-facebook_user: punnkam
-linkedin_user: punn-kam
+twitter_username: punn_kam
+github_username: punnkam
+linkedin_username: punn-kam
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
