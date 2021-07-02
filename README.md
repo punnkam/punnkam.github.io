@@ -2,4 +2,4 @@
 
 Bio, Blog
 
-**Mainly Technology, Math, and Finance.
+Mainly Technology, Math, and Finance.
