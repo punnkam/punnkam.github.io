@@ -2,6 +2,8 @@
 layout: default
 --- 
 
+##
+
 ## Hey! 👋 I'm Punn 
 
 I'm an aspiring software engineer (currently CS @ UC San Diego), economics enthusiast, professional minimalist, and crypto bro(ke). 
