@@ -1,6 +1,6 @@
 ---
 layout: default
-title: More
+title: 
 ---
 # More
 
