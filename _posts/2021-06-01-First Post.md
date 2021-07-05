@@ -2,4 +2,4 @@
 layout: post
 author: Punn
 ---
-idk what to write so this is it.
+This is an example blog post. 
