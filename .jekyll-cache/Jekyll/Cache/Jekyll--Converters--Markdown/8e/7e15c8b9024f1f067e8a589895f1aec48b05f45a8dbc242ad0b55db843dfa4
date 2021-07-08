@@ -1,0 +1,82 @@
+I"�"<p><em>Inspired by <a href="https://twitter.com/mrjasonchoi">Jason Choi</a>, GP of The Spartan Group</em></p>
+
+<p>DeFi is approaching its pre-teen years and has enjoyed an amazing year outperforming the crypto market as a whole. This outperformance is measured in each protocol’s token, some of which generate cash flow (dividends) for token holders while others do not. For protocols returning value back to tokenholders, the process of performing valuations is straightforward and similar to dividend stocks. However, for “valueless” governance tokens, cash flow models are generally inappropriate.</p>
+
+<p>Currently, cryptoassets including DeFi have a high beta against Ethereum and the decoupling of asset prices have only been temporarily observed. Since there are proportionately more “valueless” governance tokens, the performance of these protocols have arguably more effect on the overall DeFi ecosystem than those generating cash flow. Thus, investors must find appropriate models to value these new assets, which traditional models struggle to make sense of.</p>
+
+<p>In this post, I will share my process of valuing DeFi protocols liquidly trading on the open market. This is the process I follow for valuing all DeFi tokens, regardless of when it accrues value back to token holders. DeFi is it’s own asset class within crypto, and the valuation must be performed on relative terms if we are aiming for the best returns in the market.</p>
+
+<p>Take my analysis with a grain of salt and apply your own style/analysis.</p>
+
+<p>Five step valuation process:</p>
+
+<p>   I. <strong>Financials</strong>
+  II. <strong>Fundamentals</strong>
+  III. <strong>Market</strong>
+  IV. <strong>Community</strong>
+  V. <strong>Intangibles</strong></p>
+
+<h2 id="financials">Financials</h2>
+<p>The first step of valuation is the financial valuation. The process is most familiar to methods of valuation in traditional finance. While it is natural to place the great importance on financial valuations in tradfi, the lack of consensus in the use of valuation models means we should not be too strict on using these models to screen investments. We will use Comparable Companies Analysis (comps), a valuation model that compares financial ratios/metrics across comparable protocols. This approach is the most common in crypto firms.</p>
+
+<p>As an example to help illustrate this step, we will be performing a financial valuation on Sushiswap.</p>
+
+<p>      <img src="/assets/imgs/defi-valuation/FDMC.png" width="500" align="middle" /></p>
+
+<p>    <em>Data Extracted from tokenterminal.com, coingecko.com, and duneanalytics.com</em></p>
+
+<p>Performing a comps analysis paints SUSHI as relatively undervalued compared to other DEXes. However, some ratios are incorrectly inflated from using fully diluted market cap (FDMC) in the calculations instead of circulating market cap (CMC). In many cases where vesting schedules are spread over 5-10 years, FDMC is an inaccurate representation of a protocol’s valuation (potential outcomes for valuation increase exponentially with time); therefore, we will use CMC as well.</p>
+
+<p>      <img src="/assets/imgs/defi-valuation/CMC.png" width="500" align="middle" /></p>
+
+<p>    <em>Data Extracted from tokenterminal.com, coingecko.com, and duneanalytics.com</em></p>
+
+<p>Calculating ratios using CMC indicates that SUSHI is more undervalued on most metrics but also not grossly mispriced. It’s in the middle of the pack in two of the three ratios.</p>
+
+<p>The comps analysis indicates that SUSHI is relatively undervalued on a financial basis. However, comps alone do not explain why some ratios deviate far from the rest: Uniswap’s MC/TVL, Curve’s MC/7D VOL, and 0x’s P/S. For example, Uniswap’s low TVL is because the protocol doesn’t support staking rewards for UNI tokens.</p>
+
+<p>The comps analyses poses a few problems:</p>
+
+<ul>
+  <li>Data used to calculate the ratios are backward looking. At best, it reflects the present. Metrics can change quickly and the path dependent outcome is all that matters, not the journey.</li>
+  <li>Future functionality of the protocol is not accounted for. Features that may significantly increase TVL and Volume are not considered in the model and could drastically change the model in the future. Different value accrual mechanisms (fees, algo burns) potentially affect future metrics.</li>
+  <li>Different business models hinder the comparability of each protocol. For instance, Uniswap is solely focused on creating a capital efficient AMM while Sushiswap is aiming to create a suite of DeFi products.</li>
+</ul>
+
+<p>For lending protocols, analyzing protocol treasury and insurance are quite important as well. The treasury should be liquid and able to cover customers’ losses in the case of an exploit. Treasury diversification is also important and a protocol’s treasury should grow at with the market.</p>
+
+<p>Thus, our financial valuation comes with great uncertainty. Similarly to valuing software companies two decades ago, valuing these crypto assets require more than financial models.</p>
+
+<p>This is where we turn to analyzing fundamentals which will be where most of our work is done.</p>
+
+<p>##Fundamentals
+To analyze fundamentals, we must jump into the protocol head first and immerse ourselves with everything related to the project. To truly develop strong conviction on an investment, one must understand it at a level much deeper than the typical market participant. This understanding must consist of both breadth and depth.</p>
+
+<p>It goes without saying that understanding the inner workings of the product implementation and mechanism design is essential. This will allow an investor to meaningfully evaluate functional tradeoffs and compare the protocol against competitors. There are many resources at your disposal to achieve this end: whitepaper, documentation, Medium posts, research papers, and actually using the product. Though you shouldn’t stop there. Speak to developers, ask questions in the Discord/Telegram groups, and lurk in anon-forums. Your exploration should make you an expert at all aspects of the project.</p>
+
+<p>A quick way to receive feedback on your research is to explain the protocol to a non-crypto native investor. We won’t be doing this for Sushiswap as there is much to go and there is an abundance of research papers.</p>
+
+<p>Readers may find the following resources useful for research:
+<a href="dephidigital.io">Delphi Digital</a>
+<a href="messari.io/">Messari Resarch</a>
+<a href="duneanalytics.com">Dune Analytics</a>
+<a href="nansen.ai">Nansen</a>
+<a href="paradigm.xyz">Paradigm (VC)</a>
+<a href="mechanism.capital">Mechanism (VC)</a>
+<a href="medium.com/dragonfly-research">Dragonfly (VC)</a>
+<a href="blog.panteracapital.com">Pantera (VC)</a></p>
+
+<p>##Market
+This section is referring to market conditions and current narratives. Crypto is a market built on hype cycles and trends. Sectors in crypto follow extreme markup and distribution phases. For instance, the NFT craze in early 2021 and the recent L2 narrative sending MATIC soaring. To be truly early on a project, the narrative may not seem obvious to the general market participant (yet).</p>
+
+<p>      <img src="/assets/imgs/defi-valuation/hype.png" width="500" align="middle" /></p>
+
+<p>A distribution phase is a period where crypto assets underperform and DeFi often gets hit the hardest, albeit there aren’t many data points to reference. In this period, assets that have gone down 90% can go down another 90%. If we aren’t in a supercycle, investors must wisely choose when they will DCA into a DeFi investment.</p>
+
+<p>Betting on narratives proves to be extremely profitable in markup phases of a sector’s hype cycle. Front-running upcoming milestones in crypto are the most effective way to “anticipate” narratives, since accurately predicting a new narrative is near impossible. Take EIP-1559 and the expected Ethereum supply crunch. ETH/BTC and ETH/USD rallied primarily due to the narrative of EIP being deflationary for the supply of ETH. The milestones themselves could serve as an area to secure profits, “selling the news” as most would say.</p>
+
+<p>The rotation of capital between sectors are also extremely important and often follow the current narrative. Investors who are able to master the rotation of capital between sectors will prove to be extremely profitable. Most aren’t and should simply follow those who are capable.</p>
+
+<p>The approach to searching for narratives is very discretionary and requires investors to remain active and consistently follow developments in the space. Regardless of whether we are in a bear market, I will still continue to read research reports, do deep dives on projects, talk to DeFi experts, and infinitely scroll CT.</p>
+
+:ET
