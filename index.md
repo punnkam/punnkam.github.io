@@ -11,8 +11,7 @@ You'll often find me either hacking projects, researching defi/crypto, reading Y
 
 I also enjoy 💻 [writing](/blog.html), 📚 reading, 🏂 snowboarding, 🥊 boxing/gym, and watching 🏎 F1.
 
-📝 [Resume](https://docs.google.com/document/d/1AHNIx7ovcBYcY4xoI_lnken3RT5Ryp_Vbpo9iJvDeY0/edit?usp=sharing) 
-
+📝 [Resume](https://docs.google.com/document/d/1Fbjlhby2xTTzJFBl6APnllEixV6AJEzC9JYtjQFd83U/edit?usp=sharing)
 
 
 
