@@ -43,17 +43,15 @@ The comps analysis indicates that SUSHI is relatively undervalued on a financial
 
 The comps analyses poses a few problems:
 
-- Data used to calculate the ratios are backward looking. At best, it reflects the present. Metrics can change quickly and the path dependent outcome is all that matters, not the journey.
+- Data used to calculate the ratios are backward looking. At best, it reflects the present. Metrics can change quickly and aren't path dependent.
 - Future functionality of the protocol is not accounted for. Features that may significantly increase TVL and Volume are not considered in the model and could drastically change the model in the future. Different value accrual mechanisms (fees, algo burns) potentially affect future metrics.
 - Different business models hinder the comparability of each protocol. For instance, Uniswap is solely focused on creating a capital efficient AMM while Sushiswap is aiming to create a suite of DeFi products.
 
-For lending protocols, analyzing protocol treasury and insurance are quite important as well. The treasury should be liquid and able to cover customers' losses in the case of an exploit. Treasury diversification is also important and a protocol’s treasury should grow at with the market.
+For lending protocols, analyzing protocol treasury and insurance are quite important as well. The treasury should be liquid and able to cover customers' losses in the case of an exploit. Treasury diversification is also important and a protocol’s treasury should grow with the market.
 
-Thus, our financial valuation comes with great uncertainty. Similarly to valuing software companies two decades ago, valuing these crypto assets require more than financial models. 
+Thus, our financial valuation comes with great uncertainty, similarly to valuing software companies two decades ago. This is where we turn to analyzing fundamentals which will be where most of our work is done.
 
-This is where we turn to analyzing fundamentals which will be where most of our work is done.
-
-##Fundamentals
+## Fundamentals
 To analyze fundamentals, we must jump into the protocol head first and immerse ourselves with everything related to the project. To truly develop strong conviction on an investment, one must understand it at a level much deeper than the typical market participant. This understanding must consist of both breadth and depth.
 
 It goes without saying that understanding the inner workings of the product implementation and mechanism design is essential. This will allow an investor to meaningfully evaluate functional tradeoffs and compare the protocol against competitors. There are many resources at your disposal to achieve this end: whitepaper, documentation, Medium posts, research papers, and actually using the product. Though you shouldn’t stop there. Speak to developers, ask questions in the Discord/Telegram groups, and lurk in anon-forums. Your exploration should make you an expert at all aspects of the project. 
