@@ -12,9 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <code className={styles.code}>
-          New soon. Old <a>here</a>.
-        </code>
+        <code className={styles.code}>Soon.</code>
       </main>
 
       <footer className={styles.footer}>
