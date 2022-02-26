@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,9 +11,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <p>
-          I'm a software engineer at the Scripps Institute of Oceannography
-          building an autonomous ocean research device. I'm also interested in
-          startups, statistics, economics, and crypto.
+          I&apos;m a software engineer at the Scripps Institute of Oceannography
+          building an autonomous ocean research device. I&apos;m also interested
+          in startups, statistics, economics, and crypto.
         </p>
 
         <div>
