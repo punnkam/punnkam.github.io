@@ -6,8 +6,8 @@ Feel free to reach out!
 
 ```
 punn.kamolyabutr@gmail.com
-
-or
-
+```
+or 
+```
 pkamolya@gmail.com
 ```
