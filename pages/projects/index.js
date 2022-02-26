@@ -11,12 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>Projects</h1> */}
-        {/* <code className={styles.code}>pages/index.js</code> */}
-
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-            <h2>Agora (In Progress)</h2>
+            <h2>Agora (IP)</h2>
             <p>
               Decentralized marketplace for digital and physical goods commerce.
             </p>
@@ -30,7 +27,7 @@ export default function Home() {
             href="https://chain-champions.herokuapp.com/"
             className={styles.card}
           >
-            <h2>Ethereum Game</h2>
+            <h2>Ethereum Game (IP)</h2>
             <p>
               Infinite multi-player battle royale game on Ethereum fought by
               NFTs.
@@ -62,19 +59,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   );
 }
