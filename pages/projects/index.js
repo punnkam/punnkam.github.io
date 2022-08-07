@@ -12,8 +12,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>Agora (IP)</h2>
+        <a href="https://bound-eight.vercel.app/" className={styles.card}>
+            <h2>Bound</h2>
+            <p>
+              Gamified NFT subscriptions for crypto native brands and communities.
+            </p>
+            <div className={styles.technologies}>
+              Solidity, Next, Express
+            </div>
+            <p className={styles.technologies}></p>
+          </a>
+          <a href="https://github.com/agora-eco" className={styles.card}>
+            <h2>Agora</h2>
             <p>
               Decentralized marketplace for digital and physical goods commerce.
             </p>
@@ -27,7 +37,7 @@ export default function Home() {
             href="https://chain-champions.herokuapp.com/"
             className={styles.card}
           >
-            <h2>Ethereum Game (IP)</h2>
+            <h2>On-chain Game</h2>
             <p>
               Infinite multi-player battle royale game on Ethereum fought by
               NFTs.

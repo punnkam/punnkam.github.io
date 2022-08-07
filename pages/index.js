@@ -11,20 +11,21 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <p>
-          I&apos;m a software engineer at the Scripps Institute of Oceannography
-          building an autonomous ocean research device. I&apos;m also interested
+          I&apos;m studying Computer Science at UC San Diego. Previously I've 
+          
+          worked on software engineering for Google, the Scripps' lab, and financial technology companies. I&apos;m also interested
           in startups, statistics, economics, and crypto.
         </p>
 
         <div>
-          Last summer, I founded Blockchain at San Diego, a community of 300+
-          blockchain engineers, researchers, and enthusiasts at UC San Diego.
+          Last summer, I started Blockchain at San Diego, a community of 500+
+          builders, researchers, and investors.
         </div>
 
         <p>Feel free to reach out!</p>
         <div className={styles.socials}>
           <a href="mailto: punn.kamolyabutr@gmail.com">Email</a> —{" "}
-          <a href="https://twitter.com/punnkam">Twitter</a> —{" "}
+          <a href="https://twitter.com/xpunnk">Twitter</a> —{" "}
           <a href="https://linkedin.com/in/punnkam">LinkedIn</a>
         </div>
       </div>
