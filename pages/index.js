@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <p>
-          I&apos;m studying Computer Science at UC San Diego. Previously I've 
+          I&apos;m studying Computer Science at UC San Diego. Previously I 
           
-          worked on software engineering for Google, the Scripps' lab, and financial technology companies. I&apos;m also interested
+          worked on software engineering for Google, the Scripps lab, and financial technology companies. I&apos;m also interested
           in startups, statistics, economics, and crypto.
         </p>
 
