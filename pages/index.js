@@ -13,13 +13,13 @@ export default function Home() {
         <p>
           I&apos;m studying Computer Science at UC San Diego. Previously I 
           
-          worked on software engineering for Google, the Scripps lab, and financial technology companies. I&apos;m also interested
-          in startups, statistics, economics, and crypto.
+          worked on software engineering at Google, the Scripps lab, and several fintech companies. I&apos;m especially interested
+          in startups, economics, and crypto.
         </p>
 
         <div>
           Last summer, I started Blockchain at San Diego, a community of 500+
-          builders, researchers, and investors.
+          builders, researchers, and investors. 
         </div>
 
         <p>Feel free to reach out!</p>
