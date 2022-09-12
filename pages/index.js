@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <p>
-          I&apos;m studying Computer Science at UC San Diego. Previously I 
+          I&apos;m studying Computer Science at UC San Diego and currently building at [Euler Labs](https://twitter.com/eulerfinance). Previously I 
           
           worked on software engineering at Google, the Scripps lab, and several fintech companies. I&apos;m especially interested
           in startups, economics, and crypto.
