@@ -25,7 +25,7 @@ export default function NavBar() {
           <hr className={styles.hrh} />
           <div className={styles.sublinks}>
             <a href="https://github.com/punnkam">Github</a>
-            <a href="/resume.pdf">Resume</a>
+            <a href="https://drive.google.com/file/d/1TpN5FPu4ZzgCYvchziAK18ynWoCG9Bsh/view?usp=sharing">Resume</a>
           </div>
           <hr className={styles.hrh} />
           <div className={styles.sublinks}>
