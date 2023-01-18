@@ -11,15 +11,19 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <p>
-          I&apos;m studying Computer Science at UC San Diego and currently building at [Euler Labs](https://twitter.com/eulerfinance). Previously I 
-          
-          worked on software engineering at Google, the Scripps lab, and several fintech companies. I&apos;m especially interested
-          in startups, economics, and crypto.
+          I&apos;m studying Computer Science at UC San Diego and currently
+          building at{" "}
+          <a className={styles.intext} href="https://twitter.com/eulerfinance">
+            Euler Labs
+          </a>
+          . Previously I worked on software engineering at Google, the Scripps
+          lab, and several fintech companies. I&apos;m especially interested in
+          startups, economics, and crypto.
         </p>
 
         <div>
           Last summer, I started Blockchain at San Diego, a community of 500+
-          builders, researchers, and investors. 
+          builders, researchers, and investors.
         </div>
 
         <p>Feel free to reach out!</p>
