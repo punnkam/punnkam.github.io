@@ -12,17 +12,17 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>UCSD Course Search</h2>
+        <a href="" className={styles.card}>
+            <h2>Medici Finance [WIP]</h2>
             <p>
-              Semantic search of UCSD courses using Mini BERT pre-trained models.
+              Uncollateralized lending platform with credit scoring and identity proofs. 
             </p>
             <div className={styles.technologies}>
-              Python, Streamlit
+              Solidity, more...
             </div>
             <p className={styles.technologies}></p>
           </a>
-          <a href="https://bound-eight.vercel.app/" className={styles.card}>
+        <a href="https://bound-eight.vercel.app/" className={styles.card}>
             <h2>Bound</h2>
             <p>
               Gamified NFT subscriptions for crypto native brands and communities.
