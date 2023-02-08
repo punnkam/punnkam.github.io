@@ -12,17 +12,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-        <a href="" className={styles.card}>
-            <h2>Medici Finance [WIP]</h2>
+          <a href="https://triton-spanner.streamlit.app/" className={styles.card}>
+            <h2>UCSD Course Search</h2>
             <p>
-              Uncollateralized lending platform with credit scoring and identity proofs. 
+              Semantic search of UCSD courses using MiniBERT pre-trained encoders.
             </p>
             <div className={styles.technologies}>
-              Solidity, more...
+              Python
             </div>
             <p className={styles.technologies}></p>
           </a>
-        <a href="https://bound-eight.vercel.app/" className={styles.card}>
+          <a href="https://github.com/prmali/portifi-ethsf" className={styles.card}>
+            <h2>Portifi</h2>
+            <p>
+              Active portfolio manager running an automated trading strategy - ETHSF.
+            </p>
+            <div className={styles.technologies}>
+              Solidity, React, Lambda, EC2
+            </div>
+            <p className={styles.technologies}></p>
+          </a>
+          <a
+            href="https://afternoon-caverns-07461.herokuapp.com/"
+            className={styles.card}
+          >
+            <h2>Home-Service Market </h2>
+            <p>
+              Platform to improve lead generation for home-service businesses.
+            </p>
+            <div className={styles.technologies}>
+              React, Redux, Express, MongoDB
+            </div>
+          </a>
+          <a href="https://bound-eight.vercel.app/" className={styles.card}>
             <h2>Bound</h2>
             <p>
               Gamified NFT subscriptions for crypto native brands and communities.
@@ -41,30 +63,6 @@ export default function Home() {
               Solidity, React, Express, Moralis
             </div>
             <p className={styles.technologies}></p>
-          </a>
-
-          <a
-            href="https://chain-champions.herokuapp.com/"
-            className={styles.card}
-          >
-            <h2>On-chain Game</h2>
-            <p>
-              Infinite multi-player battle royale game on Ethereum fought by
-              NFTs.
-            </p>
-            <div className={styles.technologies}>Solidity, Next, IPFS</div>
-          </a>
-          <a
-            href="https://afternoon-caverns-07461.herokuapp.com/"
-            className={styles.card}
-          >
-            <h2>Home-Service Market </h2>
-            <p>
-              Platform to improve lead generation for home-service businesses.
-            </p>
-            <div className={styles.technologies}>
-              React, Redux, Express, MongoDB
-            </div>
           </a>
 
           <a href="https://github.com/punnkam/auto-arb" className={styles.card}>
