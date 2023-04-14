@@ -16,7 +16,7 @@ export default function Home() {
                         <h2>PromptGuessr</h2>
                         <p>
                             Guess the prompt of a StableDiffusion generated
-                            image scored using embeddings.
+                            image on Lexica.
                         </p>
                         <div className={styles.technologies}>
                             Solidity, React, Express, Moralis
