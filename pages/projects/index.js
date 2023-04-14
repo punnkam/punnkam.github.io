@@ -19,7 +19,7 @@ export default function Home() {
                             image on Lexica.
                         </p>
                         <div className={styles.technologies}>
-                            Solidity, React, Express, Moralis
+                            Next, Firebase
                         </div>
                         <p className={styles.technologies}></p>
                     </a>
@@ -32,7 +32,9 @@ export default function Home() {
                             Semantic search of UCSD courses using MiniBERT
                             pre-trained encoders.
                         </p>
-                        <div className={styles.technologies}>Python</div>
+                        <div className={styles.technologies}>
+                            Python, Pinecone
+                        </div>
                         <p className={styles.technologies}></p>
                     </a>
                     <a
