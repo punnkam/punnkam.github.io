@@ -23,25 +23,25 @@ export default function NavBar() {
                         <Link href="/">
                             <a>About</a>
                         </Link>
-                        <Link href="/projects">
+                        {/* <Link href="/projects">
                             <a>Projects</a>
-                        </Link>
+                        </Link> */}
                     </div>
                     <hr className={styles.hrh} />
                     <div className={styles.sublinks}>
                         <a href="https://github.com/punnkam">Github</a>
-                        <a href="https://drive.google.com/file/d/1IyY-ukAKj0eJ6ow6KHuDMcBFeiRpkgs7/view?usp=sharing">
+                        {/* <a href="https://drive.google.com/file/d/1IyY-ukAKj0eJ6ow6KHuDMcBFeiRpkgs7/view?usp=sharing">
                             Resume
-                        </a>
+                        </a> */}
                     </div>
                     <hr className={styles.hrh} />
                     <div className={styles.sublinks}>
                         <Link href="/writing">
                             <a>Writing</a>
                         </Link>
-                        <Link href="/other">
+                        {/* <Link href="/other">
                             <a>α</a>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <hr className={styles.hrw} />

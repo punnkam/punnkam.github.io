@@ -11,27 +11,30 @@ export default function Home() {
             </Head>
             <div className={styles.main}>
                 <p>
-                    I&apos;m studying Computer Science at UC San Diego.
-                    Previously I worked on backend infra for Search and Ads at
-                    Google, the Scripps lab, and several fintech companies.
-                    I&apos;m especially interested in startups, economics, LLMs,
-                    and crypto.
+                    {`I'm currently at Google. Previously, I built Host.AI to automate 
+                    guest communication in the hospitality industry. I also worked on AMMs at Euler Labs, and built a waveglider to study ocean storms at the Scripps' Institute.`}
                 </p>
-
-                {/* <div>
-                    In 2021, I started{" "}
-                    <a href="https://twitter.com/BlockchainAtSd">
-                        Blockchain at San Diego
-                    </a>
-                    , a community of 600+ builders, researchers, and investors.
-                </div> */}
-
-                <p>Feel free to reach out!</p>
-                <div className={styles.socials}>
-                    <a href="mailto: punn.kamolyabutr@gmail.com">Email</a> —{" "}
-                    <a href="https://twitter.com/0xpunnk">Twitter</a> —{" "}
-                    <a href="https://linkedin.com/in/punnkam">LinkedIn</a>
+                <div>
+                    {`Areas of interest:`}
+                    <ul>
+                        <li>Unsexy startups</li>
+                        <li>Crypto</li>
+                        <li>Housing</li>
+                        <li>Trade</li>
+                        <li>Speed</li>
+                    </ul>
                 </div>
+                <div>
+                    {`I'd like to write more.`}
+                </div>
+
+
+                <div className={styles.socialsContainer}>
+                    <a className={styles.socials} href="mailto: me@punnkam.com">me@punnkam.com</a>{"  //  "}
+                    <a className={styles.socials} href="https://twitter.com/0xpunnk">0xpunnk</a>
+
+                </div>
+                <p>Feel free to reach out!</p>
             </div>
         </div>
     );

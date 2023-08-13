@@ -35,7 +35,8 @@
 .sublinks {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   margin: 0.5rem;
   width: 7rem;
 }
@@ -54,7 +55,7 @@
   border: none;
 }
 .hrh {
-  height: 3.2rem;
+  height: 2rem;
   width: 1px;
   background-color: #dce6f0;
   border: none;

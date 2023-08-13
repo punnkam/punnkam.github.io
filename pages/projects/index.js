@@ -15,8 +15,7 @@ export default function Home() {
                     <a href="https://promptguessr.app/" className={styles.card}>
                         <h2>PromptGuessr</h2>
                         <p>
-                            Guess the prompt of a StableDiffusion generated
-                            image on Lexica.
+                            GeoGuessr for AI-generated images.
                         </p>
                         <div className={styles.technologies}>
                             Next, Firebase
