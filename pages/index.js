@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -12,26 +13,26 @@ export default function Home() {
             <div className={styles.main}>
                 <p>
                     {`I'm currently at Google. Previously, I built Host.AI to automate 
-                    guest communication in the hospitality industry. I also worked on AMMs at Euler Labs, and built a waveglider to study ocean storms at the Scripps' Institute.`}
+                    guest communication in the hospitality industry. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built trade execution systems for a trading firm.`}
                 </p>
                 <div>
                     {`Areas of interest:`}
                     <ul>
                         <li>Unsexy startups</li>
+                        <li>Economics</li>
                         <li>Crypto</li>
-                        <li>Housing</li>
-                        <li>Trade</li>
+                        <li>Land</li>
                         <li>Speed</li>
                     </ul>
                 </div>
                 <div>
-                    {`I'd like to write more.`}
+                    {"I'd like to "}<span className={styles.grey}><Link href="/writing" passHref={true} styles={styles.grey}>write</Link></span> {" more."}
                 </div>
 
 
                 <div className={styles.socialsContainer}>
-                    <a className={styles.socials} href="mailto: me@punnkam.com">me@punnkam.com</a>{"  //  "}
-                    <a className={styles.socials} href="https://twitter.com/0xpunnk">0xpunnk</a>
+                    <a className={styles.grey} href="mailto: me@punnkam.com">me@punnkam.com</a>{"  //  "}
+                    <a className={styles.grey} href="https://twitter.com/0xpunnk">0xpunnk</a>
 
                 </div>
                 <p>Feel free to reach out!</p>
