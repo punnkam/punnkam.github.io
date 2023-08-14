@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-
 const root = process.cwd()
 
 export async function getFiles(dataType) {

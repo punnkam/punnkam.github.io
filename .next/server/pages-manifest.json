@@ -1,17 +1,16 @@
 {
   "/_app": "pages/_app.js",
   "/api/hello": "pages/api/hello.js",
+  "/_error": "pages/_error.js",
   "/components/blogLayout": "pages/components/blogLayout.html",
   "/components/blogPosts": "pages/components/blogPosts.html",
+  "/other": "pages/other.html",
   "/components/layout": "pages/components/layout.html",
   "/components/navbar": "pages/components/navbar.html",
-  "/data/fetchFiles": "pages/data/fetchFiles.js",
   "/": "pages/index.html",
-  "/other": "pages/other.html",
-  "/posts/[slug]": "pages/posts/[slug].js",
-  "/posts": "pages/posts.js",
   "/projects": "pages/projects.html",
-  "/_error": "pages/_error.js",
+  "/posts": "pages/posts.js",
+  "/posts/[slug]": "pages/posts/[slug].js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

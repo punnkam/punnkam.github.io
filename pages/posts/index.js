@@ -1,6 +1,6 @@
-import { getAllPostsWithFrontMatter } from '../data/fetchFiles'
 import BlogPosts from '../components/blogPosts'
 import styles from "../../styles/Home.module.css";
+import { getAllPostsWithFrontMatter } from '../../utils/fetchFiles'
 
 export async function getStaticProps() {
   const posts = await getAllPostsWithFrontMatter('posts')
@@ -13,7 +13,6 @@ export async function getStaticProps() {
     },
   }
 }
-
 
 export default function Blog({ posts, title, description }) {
   return (

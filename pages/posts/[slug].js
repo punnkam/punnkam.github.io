@@ -1,10 +1,10 @@
 import Link from "next/link"
-import { getFiles, getPostBySlug } from "../data/fetchFiles"
 import BlogLayout from '../components/blogLayout'
 import React from 'react'
 import ReactMarkdown from "react-markdown"
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/cjs/styles/prism'
+import { getFiles, getPostBySlug } from "../../utils/fetchFiles"
 
 const CodeBlock = ({ language, value }) => {
 	return (
