@@ -10,8 +10,8 @@ export default function NavBar() {
                         <img
                             src="/logo.jpg"
                             alt="Logo"
-                            width={80}
-                            height={80}
+                            width={70}
+                            height={70}
                         />
                     </a>
                 </Link>
@@ -36,8 +36,8 @@ export default function NavBar() {
                     </div>
                     <hr className={styles.hrh} />
                     <div className={styles.sublinks}>
-                        <Link href="/writing">
-                            <a>Writing</a>
+                        <Link href="/posts">
+                            <a>Posts</a>
                         </Link>
                         {/* <Link href="/other">
                             <a>α</a>

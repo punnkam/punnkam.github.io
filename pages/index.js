@@ -13,7 +13,7 @@ export default function Home() {
             <div className={styles.main}>
                 <p>
                     {`I'm currently at Google. Previously, I built Host.AI to automate 
-                    guest communication in the hospitality industry. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built trade execution systems for a trading firm.`}
+                    guest communication in the hospitality industry. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built execution systems at a trading firm.`}
                 </p>
                 <div>
                     {`Areas of interest:`}
@@ -26,7 +26,7 @@ export default function Home() {
                     </ul>
                 </div>
                 <div>
-                    {"I'd like to "}<span className={styles.grey}><Link href="/writing" passHref={true} styles={styles.grey}>write</Link></span> {" more."}
+                    {"I'd like to "}<span className={styles.grey}><Link href="/posts" passHref={true} styles={styles.grey}>write</Link></span> {" more."}
                 </div>
 
 
