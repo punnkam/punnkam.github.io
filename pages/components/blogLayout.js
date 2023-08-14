@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from "../../styles/Home.module.css";
 import Image from 'next/image';
-import { convertDateToAbbrev } from '../utils/conversions';
+import { convertDateToAbbrev } from '../../utils/conversions';
 
 export default function BlogLayout({ frontMatter, children }) {
+	if (!frontMatter) return <></>
 	const { title, publishedDate, description, image, tags, readTime } = frontMatter;
 
 	return (

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../../styles/Posts.module.css'
-import { convertDateToFull } from '../utils/conversions'
+import { convertDateToFull } from '../../utils/conversions'
 
 const BlogPosts = ({ posts }) => {
 	return (
