@@ -12,8 +12,7 @@ export default function Home() {
             </Head>
             <div className={styles.main}>
                 <p>
-                    {`I'm currently at Google. Previously, I built Host.AI to automate 
-                    guest communication in the hospitality industry. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built execution systems at a trading firm.`}
+                    {`I'm building the operating system for vacation rental managers. Previously, I worked on Ads Infra at Google serving clients like Booking and Expedia. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built execution systems at a trading firm.`}
                 </p>
                 <div>
                     {`Areas of interest:`}
