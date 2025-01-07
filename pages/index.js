@@ -12,7 +12,7 @@ export default function Home() {
             </Head>
             <div className={styles.main}>
                 <p>
-                    currently building <a className={styles.grey} href="https://conduit.app" target="_blank">ai agents for the built world</a>. previously i worked on ai/ads at google, amms at a defi protocol, consumer credit risk modeling at a bank, and execution systems at a trading firm.
+                    currently building <a className={styles.grey} href="https://conduit.app" target="_blank">ai agents for the built world</a>. previously i worked on ai+ads at google, amms at a defi protocol, credit risk modeling at a bank, and execution systems at a trading firm.
                 </p>
                 <div>
                     {`i enjoy:`}
