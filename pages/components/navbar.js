@@ -34,15 +34,15 @@ export default function NavBar() {
                             Resume
                         </a> */}
                     </div>
-                    <hr className={styles.hrh} />
-                    <div className={styles.sublinks}>
-                        <Link href="/posts">
+                    {/* <hr className={styles.hrh} /> */}
+                    {/* <div className={styles.sublinks}> */}
+                    {/* <Link href="/posts">
                             <a>Posts</a>
-                        </Link>
-                        {/* <Link href="/other">
+                        </Link> */}
+                    {/* <Link href="/other">
                             <a>α</a>
                         </Link> */}
-                    </div>
+                    {/* </div> */}
                 </div>
                 <hr className={styles.hrw} />
             </div>

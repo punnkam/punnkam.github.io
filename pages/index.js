@@ -12,16 +12,15 @@ export default function Home() {
             </Head>
             <div className={styles.main}>
                 <p>
-                    {`I'm building the operating system for vacation rental managers. Previously, I worked on Ads Infra at Google serving clients like Booking and Expedia. I also worked on AMMs at a defi protocol, modeled credit defaults at a commercial bank, and built execution systems at a trading firm.`}
+                    currently building <a className={styles.grey} href="https://conduit.app" target="_blank">ai agents for the built world</a>. previously i worked on ai/ads at google, amms at a defi protocol, consumer credit risk modeling at a bank, and execution systems at a trading firm.
                 </p>
                 <div>
-                    {`Areas of interest:`}
+                    {`i enjoy:`}
                     <ul>
-                        <li>Unsexy startups</li>
-                        <li>Economics</li>
-                        <li>Crypto</li>
-                        <li>Land</li>
-                        <li>Speed</li>
+                        <li>startups</li>
+                        <li>economics</li>
+                        <li>real-estate</li>
+                        <li>anything really fast</li>
                     </ul>
                 </div>
                 <div>
@@ -30,11 +29,11 @@ export default function Home() {
 
 
                 <div className={styles.socialsContainer}>
-                    <a className={styles.grey} href="mailto: me@punnkam.com">me@punnkam.com</a>{"  //  "}
-                    <a className={styles.grey} href="https://twitter.com/0xpunnk">0xpunnk</a>
+                    <a className={styles.grey} href="mailto:punn.kamolyabutr@gmail.com">email</a>{"  //  "}
+                    <a className={styles.grey} href="https://twitter.com/0xpunnk" target="_blank">twitter</a>
 
                 </div>
-                <p>Feel free to reach out!</p>
+                <p>would love to get to know you!</p>
             </div>
         </div>
     );
