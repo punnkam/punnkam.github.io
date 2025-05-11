@@ -12,19 +12,17 @@ export default function Home() {
             </Head>
             <div className={styles.main}>
                 <p>
-                    currently building <a className={styles.grey} href="https://conduit.app" target="_blank">ai agents for the built world</a>. previously i worked on ai+ads at google, amms at a defi protocol, credit risk modeling at a bank, and execution systems at a trading firm.
+                    currently building <a className={styles.grey} href="https://conduit.ai" target="_blank">conversational ai agents</a>. previously i worked on ai+ads at google, amms at a defi protocol, credit risk modeling at a bank, and execution systems at a trading firm.
                 </p>
                 <div>
                     {`i enjoy:`}
                     <ul>
-                        <li>startups</li>
-                        <li>economics</li>
-                        <li>real-estate</li>
-                        <li>anything really fast</li>
+                        <li>building startups</li>
+                        <li>investing in my friends</li>
+                        <li>learning history</li>
+                        <li>playing poker</li>
+                        <li>all things fast (f1, speedcubing, sprints, etc.)</li>
                     </ul>
-                </div>
-                <div>
-                    {"I'd like to "}<span className={styles.grey}><Link href="/posts" passHref={true} styles={styles.grey}>write</Link></span> {" more."}
                 </div>
 
 
@@ -33,7 +31,7 @@ export default function Home() {
                     <a className={styles.grey} href="https://twitter.com/0xpunnk" target="_blank">twitter</a>
 
                 </div>
-                <p>would love to get to know you!</p>
+                <p>reach out!</p>
             </div>
         </div>
     );
